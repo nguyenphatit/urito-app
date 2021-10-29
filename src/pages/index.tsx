@@ -1,10 +1,11 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
+import HelloScreen from '../components/HelloScreen';
 
 const Home: NextPage = () => {
   return (
-    <div className="text-red-700">
-      Hello world
-    </div>
+    <>
+      <HelloScreen />
+    </>
   )
 }
 
