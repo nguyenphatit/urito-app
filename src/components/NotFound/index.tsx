@@ -2,6 +2,10 @@ import { FC } from "react";
 import Image from "next/image";
 import imageUrl from "../../../public/images/not-found.gif";
 
+/**
+ * The comoponent for the 404 page
+ * @returns {JSX.Element}
+ */
 const NotFound: FC = () => (
   <div className="flex flex-col justify-center items-center min-h-screen">
     <div className="flex flex-col justify-items-center items-center">

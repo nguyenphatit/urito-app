@@ -3,10 +3,16 @@ import React, { Children, FC, ReactNode, useEffect, useState } from "react";
 interface Props {
   children: ReactNode;
 }
-
+/**
+ * The Component generate a dropdown menu with 2 child
+ * First child is the button to open the dropdown
+ * Second child is the dropdown menu
+ * @param {ReactNode} children
+ * @returns {JSX.Element}
+ */
 const Dropdown: FC<Props> = ({ children }) => {
   const firstChild = Children.toArray(children)[0];
-  const contentChidl = Children.toArray(children)[1];
+  const contentChild = Children.toArray(children)[1];
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const wrapperRef = React.useRef<HTMLDivElement>(null);
 
@@ -38,7 +44,7 @@ const Dropdown: FC<Props> = ({ children }) => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        {contentChidl}
+        {contentChild}
       </div>
     </div>
   );

@@ -15,7 +15,12 @@ interface CardProps {
   image: string;
   description: string;
 }
-
+/**
+ * The card component
+ * @param {string} image - The image url
+ * @param {string} description - The description 
+ * @returns  {JSX.Element}
+ */
 const Card: FC<CardProps> = ({ image, description }) => (
   <div className="w-full">
     <Image
@@ -30,6 +35,10 @@ const Card: FC<CardProps> = ({ image, description }) => (
   </div>
 );
 
+/**
+ * Header component
+ * @returns {JSX.Element}
+ */
 const Header: FC = () => {
   const [isOpenLeftMenu, setIsOpenLeftMenu] = useState<boolean>(false);
   const [isOpenRightMenu, setIsOpenRightMenu] = useState<boolean>(false);

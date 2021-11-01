@@ -6,8 +6,15 @@ interface Props {
   children: React.ReactNode | any;
   activeClassName: string;
   href: string;
+  as?: string;
 }
 
+/**
+ * The Component generate a link with active class name if the current path is the same as the href
+ * @param {ReactNode} children - The children of the component
+ * @param {string} activeClassName - The class name to add to the link if the current path is the same as the href
+ * @returns {JSX.Element}
+ */
 const ActiveLink: FC<Props> = ({ children, activeClassName, ...props }) => {
   const { asPath } = useRouter();
   const child = Children.only(children);
