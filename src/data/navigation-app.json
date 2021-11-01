@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "title": "Games",
+        "image": "https://i.imgur.com/qkKy8sJ.jpg",
+        "description": "A collection of games for you to play",
+        "items": [
+            {
+                "id": 1,
+                "name": "League of Legends",
+                "href": "/",
+                "icon": ""
+            },
+            {
+                "id": 2,
+                "name": "League of Runeterra",
+                "href": "/",
+                "icon": ""
+            },
+            {
+                "id": 3,
+                "name": "League of Legends: Wild Rift",
+                "href": "/",
+                "icon": ""
+            },
+            {
+                "id": 4,
+                "name": "Valorant",
+                "href": "/",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Esports",
+        "image": "https://i.imgur.com/qkKy8sJ.jpg",
+        "description": "A collection of games for you to play",
+        "items": [
+            {
+                "id": 1,
+                "name": "Lol Esport",
+                "href": "/",
+                "icon": ""
+            },
+            {
+                "id": 2,
+                "name": "Valorant Esport",
+                "href": "/",
+                "icon": ""
+            }
+        ]
+    }
+]

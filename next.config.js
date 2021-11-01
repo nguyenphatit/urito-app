@@ -3,6 +3,7 @@
 const path = require('path');
 
 module.exports = {
+  swcMinify: true,
   reactStrictMode: true,
   productionBrowserSourceMaps: true,
   sassOptions: {

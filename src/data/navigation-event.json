@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "League of Legends: Wild Rift",
+        "image": "/images/dragonmancer-promocard.jpg",
+        "description": "Sức mạnh của rồng đang chờ đợi bạn. Hãy chọn ngay nguyên tố của mình trong sự kiện Đạo Của Triệu Long Sư và giành chiến thắng cho đội của bạn để nhận biểu tượng độc quyền."
+    },
+    {
+        "id": 2,
+        "name": "League of Legends: Arcane",
+        "image": "/images/dragonmancer-promocard.jpg",
+        "description": "Tìm hiểu thêm về Arcane, loạt phim hoạt hình mới từ thế giới Liên Minh Huyền Thoại."
+    }
+]
