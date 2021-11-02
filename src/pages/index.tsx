@@ -1,7 +1,7 @@
-import { NextPage, NextPageContext } from "next";
+import { NextPage } from "next";
 import Header from "../components/Header";
 
-const Home: NextPage = ({ env }) => {
+const Home: NextPage = () => {
   return (
     <>
       <Header />

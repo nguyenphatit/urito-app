@@ -9,7 +9,7 @@
     "build:sit": "env-cmd -f .env.sit next build && next export",
     "build:uat": "env-cmd -f .env.uat next build && next export",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --dir ./src/components --dir ./src/pages",
     "prepare": "husky install"
   },
   "dependencies": {
